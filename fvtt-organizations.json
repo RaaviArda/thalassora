@@ -1,0 +1,27 @@
+{
+  "type": "organization",
+  "uuid": "JournalEntry.DPwF8qQbmh3flYXg",
+  "id": "DPwF8qQbmh3flYXg",
+  "name": "Imperium Solaryjskie",
+  "img": "https://assets.forge-vtt.com/60b386ef2a526916c514ed4e/worlds/thalassora/Flaga%20-%20Imperium%20Solaryjskie.webp",
+  "relationship": "** RODZAJ POWIĄZANIA: np. właściciel, nie więcej niż 2 wyrazy **",
+  "hidden": false
+},
+{
+  "type": "organization",
+  "uuid": "JournalEntry.p8JmuXrxgYfR1wjh",
+  "id": "p8JmuXrxgYfR1wjh",
+  "name": "Królestwo Venderii",
+  "img": "https://assets.forge-vtt.com/60b386ef2a526916c514ed4e/worlds/thalassora/Flaga%20-%20Krolestwo%20Venderii.webp",
+  "relationship": "** RODZAJ POWIĄZANIA: np. właściciel, nie więcej niż 2 wyrazy **",
+  "hidden": false
+},
+{
+  "type": "organization",
+  "uuid": "JournalEntry.NKDIvH7oSzrhorr6",
+  "id": "NKDIvH7oSzrhorr6",
+  "name": "Liga Eltaryjska",
+  "img": "https://assets.forge-vtt.com/60b386ef2a526916c514ed4e/worlds/thalassora/Flaga%20-%20Liga%20Eltaryjska.webp",
+  "relationship": "** RODZAJ POWIĄZANIA: np. właściciel, nie więcej niż 2 wyrazy **",
+  "hidden": false
+}

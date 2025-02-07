@@ -1,0 +1,80 @@
+{
+  "folder": "Lyx5BK3oQtCsG6MH",
+  "name": "** NAZWA **",
+  "flags": {
+    "monks-enhanced-journal": {
+      "pagetype": "place",
+      "img": "modules/monks-enhanced-journal/assets/place.png"
+    },
+    "exportSource": {
+      "world": "thalassora",
+      "system": "CoC7",
+      "coreVersion": "12.330",
+      "systemVersion": "7.6"
+    }
+  },
+  "pages": [
+    {
+      "type": "text",
+      "name": "** NAZWA **",
+      "flags": {
+        "monks-enhanced-journal": {
+          "type": "place",
+          "placetype": "** TYP MIASTA: stolica, miasto portowe itp, nie więcej niż 3 wyrazy **",
+          "location": "** LOKALIZACJA: jeśli znana - np. nazwa wyspy **",
+          "attributes": {
+            "age": "",
+            "size": "** LUDNOŚĆ **",
+            "government": "",
+            "inhabitants": ""
+          },
+          "appendix": false,
+          "scrollPos": "{\".tab.entry-details .tab-inner\":0,\".tab.townsfolk .tab-inner\":0,\".tab.shops .tab-inner\":0,\".tab.description .tab-inner\":0}",
+          "_lasttab": "description",
+          "relationships": [
+            ** LISTA POWIĄZAŃ W FORMACIE JSON: np. właściciel miasta. Zobacz listę dostępnych fakcji w pliku fvtt-organizations.json w tym repozytorium, jeśli nie ma pasującej organizacji nie wstawiaj nic, poinformuj mnie o brakach **
+          ]
+        }
+      },
+      "_id": "vcMJFMorDGKPc7R9",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "** OPIS MIASTA: opis miasta jako HTML **"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1,
+        "nUNdlTiA94mCUdBR": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.330",
+        "systemId": "CoC7",
+        "systemVersion": "7.6",
+        "createdTime": 1738930405627,
+        "modifiedTime": 1738931409945,
+        "lastModifiedBy": "nUNdlTiA94mCUdBR"
+      }
+    }
+  ],
+  "_stats": {
+    "coreVersion": "12.330",
+    "systemId": "CoC7",
+    "systemVersion": "7.6",
+    "createdTime": 1738930405542,
+    "modifiedTime": 1738930405585,
+    "lastModifiedBy": "nUNdlTiA94mCUdBR"
+  }
+}
