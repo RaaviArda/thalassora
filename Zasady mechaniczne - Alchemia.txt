@@ -1,0 +1,53 @@
+# TYP: Zasady Mechaniczne
+# OBSZAR: Alchemia
+# OPIS: Zasady działania alchemii w Thalassora, w tym klasyfikacja składników, kolory, typy reakcji, magical resonance oraz próby alchemiczne.
+
+Zasady Alchemii – Świat Thalassora
+
+1. Składniki alchemiczne
+
+- Kolory składników determinują ich podstawową funkcję alchemiczną:
+  - Czerwony – siła, ogień, agresja
+  - Zielony – natura, trucizna, uzdrawianie
+  - Niebieski – spokój, sen, iluzja, woda
+  - Żółty – zmysły, światło, inspiracja, szybkość
+  - Czarny – śmierć, cień, degeneracja, czas
+  - Biały – oczyszczenie, odporność, duchowość
+  - Katalizator – nie posiada własnego efektu, ale umożliwia lub stabilizuje reakcje między kolorami
+
+- Składniki alchemiczne nie pochodzą z roślin.
+  Wszystkie elementy roślinne (liście, kwiaty, korzenie itd.) przyporządkowane są do zielarstwa, nie alchemii.
+
+- magical_resonance to cecha składnika, która może:
+  - wzmacniać lub modyfikować efekt końcowy podczas craftingu,
+  - nadawać składnikowi wartość użytkową samą w sobie, np. jako komponent magicznego przedmiotu.
+
+- Występowanie:
+  - każdy składnik może występować w jednym lub więcej miejscach
+  - występowanie jest ogólną nazwą biomu, np. jaskinie, góry, las, pustynia itd.
+
+2. Crafting i testy alchemiczne
+
+- Każde tworzenie substancji alchemicznej wymaga testu Alchemii:
+  - Mechanicznie jest to test Science (Chemistry) lub jego odpowiednika w danym systemie.
+  - Poziom trudności zależy od złożoności i mocy efektu końcowego (określonego przez Mistrza Gry lub poziom receptury).
+  - Niepowodzenie testu może skutkować utratą składników, uzyskaniem niestabilnej wersji lub efektem odwrotnym.
+
+- Minimalna receptura to 2 składniki (np. 2 czerwone lub 1 czerwony + 1 zielony).
+  Katalizator nie zastępuje koloru, ale może być wymagany jako trzeci składnik w trudniejszych recepturach.
+
+3. Typy substancji alchemicznych (type)
+
+Typ określa stan skupienia oraz formę zastosowania substancji:
+
+Typ       | Opis i zastosowanie
+----------|----------------------------
+ciecz     | Płyn do rozlewania, detonacji lub smarowania. Niekiedy do picia (rzadko).
+olej      | Lepka ciecz nanoszona na broń, przedmioty, podłoże.
+maść      | Gęsta substancja wcierana w ciało, powierzchnie lub rany.
+proszek   | Sypki – posypywany, wdychany, palony lub stosowany rytualnie.
+gaz       | Uwalnia się w powietrzu – działa natychmiast w obszarze.
+stały     | Bryłki, tabletki, kamienie – często aktywowane zewnętrznie.
+
+- Ciecze najczęściej pełnią funkcję bomb, esencji, substancji kontaktowych.
+  Spożywalne mikstury są wyjątkiem, nie normą.

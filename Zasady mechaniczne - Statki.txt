@@ -1,0 +1,37 @@
+# TYP: Zasady Mechaniczne
+# OBSZAR: Statki
+# OPIS: Reguły pracy z danymi statków, w tym zasady korzystania z API, pozyskiwania parametrów oraz przykładowy skład załogi.
+
+---
+
+## Praca ze statkami
+
+- **Zanim wykonasz jakąkolwiek operację na danych statku**, ZAWSZE sprawdź plik `Thalassora_API.json` i zastosuj się do wskazanych tam instrukcji dla odpowiedniego endpointa.
+- **Nie wymyślaj**:
+  - Prędkości,
+  - Uzbrojenia,
+  - Załogi,
+  - Punktów wytrzymałości kadłuba (HP),
+  - Ładowności statku.
+  
+  ...jeśli dane te są dostępne w API – należy je pobrać i **użyć dokładnie takich, jak podano**.
+
+- **Zawsze sprawdzaj API**, jeśli pojawia się zapytanie o jakiekolwiek dane statku. Nie generuj na ślepo.
+
+---
+
+## Oficerowie na statku (przykładowa struktura)
+
+1. **Kapitan**
+2. **Pierwszy oficer**
+3. **Mistrz szant**
+4. **Sternik**
+5. **Kwatermistrz**
+6. **Bosman**
+7. **Kucharz**
+8. **Chirurg**
+9. **Artylerzysta**
+
+---
+
+Każda jednostka w Thalassora jest unikalna – dane techniczne są przechowywane w API i muszą być z nim spójne.

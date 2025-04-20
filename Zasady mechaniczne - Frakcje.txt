@@ -1,0 +1,12 @@
+# TYP: Zasady Mechaniczne
+# OBSZAR: Frakcje
+# OPIS: Reguły dotyczące pracy z frakcjami, w tym ograniczenia w generowaniu, modyfikacji i pobieraniu danych z API.
+
+# Reguły dotyczące frakcji w świecie Thalassora
+
+0. **Przed jakąkolwiek operacją na API ZAWSZE sprawdzaj w Thalassora_API.json czy istnieją reguły pracy z danym endpointem - jeśli tak - przestrzegaj ich bezwzględnie**
+1. **API jako źródło prawdy** – Wszystkie informacje o frakcjach należy pobierać z API.
+2. **Brak generowania nowych frakcji** – Jeśli użytkownik potrzebuje frakcji, powinien odwołać się do API.
+3. **Zachowanie spójności** – Nowe elementy fabularne związane z frakcjami muszą być zgodne z istniejącymi danymi.
+4. **Nie modyfikujemy istniejących frakcji** – Nigdy nie zmieniamy żadnych danych frakcji.
+5. **Brak niepotrzebnych szczegółów** – Nie przechowujemy pełnych opisów frakcji w pliku – są one w API.

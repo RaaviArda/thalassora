@@ -1,0 +1,60 @@
+# TYP: Zasady Mechaniczne
+# OBSZAR: Rasy i postacie
+# OPIS: Techniczne zasady tworzenia, losowania i zapisu postaci oraz pobierania informacji o rasach w zgodzie z danymi API.
+
+# Zasady dotyczące ras i generowania postaci w Thalassora
+
+W każdym wypadku podczas pracy z API należy sprawdzić czy w Thalassora_API.json są instrukcje dla danego zapytania do API.
+
+## 1. Pobieranie informacji o rasach
+- Przed jakąkolwiek pracą z API ZAWSZE sprawdź plik Thalassora_API.json i zobacz czy dany endpoint ma instrukcje - jeśli tak to zastosuj się do nich bezwzględnie.
+- Wszystkie informacje o rasach **muszą być pobierane z API**.
+- Używaj wyłącznie **searchRaces** oraz **generateRandomCharacters**.
+- **Nigdy nie generuj rasy losowo bez użycia API** – zawsze odpytuj API.
+- Jeśli API zwraca listę ras, ale plik zawiera dodatkowe ograniczenia, **stosuj się do zasad z pliku**.
+- **Jeśli rasa ma być losowa**, odpytaj **generateRandomCharacters**, który sam wybierze rasę.
+
+## 2. Pobieranie i generowanie postaci
+- Przed jakąkolwiek pracą z API ZAWSZE sprawdź plik Thalassora_API.json i zobacz czy dany endpoint ma instrukcje - jeśli tak to zastosuj się do nich bezwzględnie.
+- Wszystkie informacje o postaciach **muszą być pobierane z API**.
+- Używaj wyłącznie **searchCharacters**, aby sprawdzić, czy postać istnieje.
+- **Nigdy nie twórz nowych postaci samodzielnie** – jeśli API nie zwraca wyników, poinformuj użytkownika.
+- Jeśli użytkownik chce nową postać, pobierz dane rasy, a następnie użyj **generateRandomCharacters**.
+- **createCharacter oraz updateCharacter** mogą być używane **tylko na wyraźne polecenie użytkownika**.
+
+### **3. Pobieranie i tworzenie imion**
+- Przed jakąkolwiek pracą z API ZAWSZE sprawdź plik Thalassora_API.json i zobacz czy dany endpoint ma instrukcje - jeśli tak to zastosuj się do nich bezwzględnie.
+- **Nie twórz imion samodzielnie** – agent nigdy nie powinien wymyślać nowych imion bez korzystania z dostępnych mechanizmów API.
+- **Jeśli użytkownik prosi o unikatowe imię, które pasuje do rasy i nie istnieje w API**, agent powinien:
+  1. Pobierać listę istniejących imion dla danej rasy i płci za pomocą `getFirstNames`, zgodnie z instrukcjami w **Thalassora_API.json**.
+  2. Użyć tej listy jako wzoru i na jej podstawie wygenerować nowe imię, zachowując spójność stylistyczną.
+  3. Nie dodawać nowego imienia do API bez wyraźnej zgody użytkownika.
+- **Jeśli użytkownik nie wspomina o imieniu i chce wygenerować postać**, agent powinien:
+  1. Nie korzystać z `getFirstNames`, a zamiast tego użyć `generateRandomCharacters`.
+  2. Jeśli użytkownik podał rasę i/lub płeć, uwzględnić te parametry w zapytaniu.
+  3. Jeśli rasa/płeć ma być losowa, nie podawać brakujących parametrów – API samo dobierze odpowiednią rasę/płeć zgodnie z rozkładem populacji.
+- **Jeśli użytkownik prosi o losowe imię bez zaznaczenia, że chodzi o nowe/unikatowe imię**, agent powinien:
+  1. Użyć `generateRandomCharacters`, aby wygenerować postać i pobrać jej imię.
+  2. Przedstawić użytkownikowi wynik bez modyfikacji.
+- **Agent nigdy nie zmienia listy imion w API bez wyraźnego polecenia użytkownika**.
+
+## 4. Tworzenie postaci zgodnej z rasą
+- Przed jakąkolwiek pracą z API ZAWSZE sprawdź plik Thalassora_API.json i zobacz czy dany endpoint ma instrukcje - jeśli tak to zastosuj się do nich bezwzględnie.
+- **Każda rasa ma określone cechy w API** (wygląd, charakter, statystyki).
+- **Nie przypisuj losowo ras do ról**, jeśli nie są zgodne z opisem w API.
+- **Jeśli API zwraca statystyki rasy**, nie zmieniaj ich – stosuj dokładnie te wartości.
+- Jeśli API nie podaje danej wartości, ale plik zawiera jej zakres, **stosuj wartości z pliku** zamiast losować.
+
+## 5. Generowanie cech postaci
+- Przed jakąkolwiek pracą z API ZAWSZE sprawdź plik Thalassora_API.json i zobacz czy dany endpoint ma instrukcje - jeśli tak to zastosuj się do nich bezwzględnie.
+- **Nie generuj rzeczy, które nie mogą zostać zapisane w API**.
+- **Sprawdź, jakie pola są dostępne w API, i generuj tylko to, co jest w bazie**.
+- **Wiek, wzrost, waga muszą mieścić się w zakresie dla danej rasy** – jeśli API podaje zakres, nie wychodź poza niego.
+- **Nie losuj cech, jeśli API je podaje – używaj wartości z API**.
+
+## 6. Zasady zapisu do API
+- Przed jakąkolwiek pracą z API ZAWSZE sprawdź plik Thalassora_API.json i zobacz czy dany endpoint ma instrukcje - jeśli tak to zastosuj się do nich bezwzględnie.
+- **Domyślnie postać jest wyświetlana jako lista punktowana** – nie zapisujemy jej automatycznie.
+- **Nigdy nie zapisuj postaci bez wyraźnego polecenia użytkownika**.
+- **Jeśli użytkownik chce zapisać postać, zapisujemy ją dokładnie w takiej formie, w jakiej została wygenerowana**.
+- **Nie zmieniaj danych po akceptacji** – jeśli użytkownik zatwierdził postać, zapisujemy ją bez poprawek.

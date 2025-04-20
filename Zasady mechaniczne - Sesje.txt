@@ -1,0 +1,99 @@
+# TYP: Zasady Mechaniczne
+# OBSZAR: Sesje
+# OPIS: Reguły tworzenia, edytowania i zapisywania sesji w Thalassora, w tym zarządzanie wątkami fabularnymi, opisami, eksportem i upływem czasu.
+
+# Zasady pracy z sesjami w Thalassora (dla Fantasy World Buildera)
+
+Poniższe reguły obowiązują podczas tworzenia, edytowania i zapisywania sesji w systemie Thalassora.
+
+---
+
+## 1. Ogólne zasady zapisu sesji
+
+- **Nigdy nie zapisuj danych sesji bez uprzedniego potwierdzenia od użytkownika.**
+- Przed zapisaniem sesji sprawdź, czy zawartość `storyThreads` (wątki fabularne) nie zostanie przypadkowo nadpisana.
+- Zawsze pobierz aktualne dane sesji przed aktualizacją, nawet jeśli zmienia się tylko jeden wątek.
+
+---
+
+## 2. Praca z wątkami fabularnymi
+
+### 2.1 Weryfikacja istniejących wątków
+
+- Przed dodaniem nowego wątku do sesji:
+  - Sprawdź, czy wątek o tym tytule nie istnieje już w innym wpisie sesji (`vw_story_threads`).
+  - Jeśli istnieje, zapytaj użytkownika: **„Czy chcesz kontynuować wątek XYZ?”**
+  - Jeśli nie istnieje – zapytaj: **„Czy to nowy wątek?”**
+
+### 2.2 Unifikacja i porządkowanie
+
+- Jeśli tytuł nowego wątku jest podobny do istniejącego (np. „Fragmenty mapy Aldrica” vs „Mapa Aldrica”), zaproponuj scalenie.
+- Jeśli użytkownik zmienia tytuł wątku – zaktualizuj go we wszystkich sesjach, w których występuje (na jego polecenie).
+
+### 2.3 Po zapisaniu sesji
+
+- Po zapisaniu sesji sprawdź, czy któryś z wcześniej aktywnych wątków nie powinien zostać oznaczony jako zakończony.
+- Jeśli tak, zaproponuj: **„Czy chcesz zamknąć wątek XYZ?”**
+
+---
+
+## 3. Tworzenie opisu sesji
+
+- Przed wygenerowaniem `summary`, zeskanuj istniejące aktywne wątki.
+- W opisie uwzględnij odniesienia do tych wątków, jeśli są istotne.
+- Podpowiedz użytkownikowi, które wątki mogły zostać poruszone na podstawie:
+  - lokalizacji sesji,
+  - obecnych NPCów lub postaci,
+  - wyrażeń kluczowych w treści.
+
+---
+
+## 4. Statusy i scalanie
+
+- Dopuszczalne statusy wątków: `aktywny`, `zakończony`.
+- Nie stosuj innych statusów (np. `usunięty`, `zawieszony`), chyba że użytkownik zmodyfikuje API.
+- Jeśli wątek pojawia się wielokrotnie pod różnymi nazwami – zaproponuj scalenie z nową nazwą główną.
+
+---
+
+## 5. Dodatkowe środki ostrożności
+
+- Jeśli zapis dotyczy `storyThreads`, **zawsze aktualizuj pełną tablicę JSON**, nigdy tylko jednego elementu.
+- Jeśli pole `storyThreads` ma być zmodyfikowane – pobierz je w całości, zmodyfikuj lokalnie, i dopiero potem odeślij.
+
+---
+
+## 6. Eksport i backup
+
+- Raz na kilka sesji zaproponuj wygenerowanie podsumowania:
+  - aktywne i zakończone wątki,
+  - zmiany w NPCach/lokacjach,
+  - streszczenie.
+- Format do eksportu: `.md` (Markdown) dla integracji z Obsidianem.
+
+
+
+---
+
+## 7. Praca z czasem diegetycznym (w świecie gry)
+
+- **Data i upływ czasu w świecie gry nie są zapisywane w osobnym polu – należy je zawierać w opisie (`summary`).**
+- Każda sesja powinna zawierać na początku `summary` informację o czasie gry, np.:
+  - `## Sesja: 22–23 Maja 1672`
+  - `### Czas gry: 12 dnia miesiąca Wiru, rok 1673`
+- Format i styl opisu daty może być dowolny, o ile jest czytelny i jednoznaczny.
+
+### 7.1 Weryfikacja obecności daty
+
+- Jeśli użytkownik podaje nową sesję do opisania:
+  - sprawdź, czy w treści opisu znajduje się informacja o **dacie w świecie gry**
+  - jeśli brak – **przypomnij o konieczności podania daty** i **wstrzymaj zapis**
+  - nie wymagaj godzin, ale daty lub chociaż przybliżonego zakresu (np. "na tydzień po bitwie")
+
+### 7.2 Wewnętrzny zegar
+
+- Asystent może prowadzić orientacyjny zegar świata gry, np.:
+  - „Minęły 3 dni od ostatniej podróży”
+  - „To druga noc po dotarciu na wyspę” – jeśli dane są dostępne w sesjach
+- Użytkownik może poprosić o zestawienie chronologiczne wydarzeń lub odliczanie czasu do kolejnego punktu fabularnego.
+

@@ -1,0 +1,51 @@
+# TYP: Zasady Mechaniczne
+# OBSZAR: Wycena przedmiotow magicznych
+# OPIS: Zasady określania wartości przedmiotów magicznych w Thalassora, oparte na ich rzadkości, funkcjonalności i kontekście fabularnym.
+
+WYCENA MAGICZNYCH PRZEDMIOTÓW W THALASSORZE
+==========================================
+
+W świecie Thalassory, gdzie magia jest rzadka i wysoko ceniona, przedmioty magiczne podlegają wieloczynnikowej wycenie. Wartość wyrażana jest w złotych monetach (GP).
+
+SKALA RZADKOŚCI
+---------------
+
+| Poziom | Nazwa                  | Przedział GP      | Przykłady                                       |
+|--------|------------------------|-------------------|-------------------------------------------------|
+| 1️      | Powszechny (pospolity) | 50–150 GP         | Pióro, które nie wysycha, magiczne kompasiki    |
+| 2️      | Nietypowy              | 200–800 GP        | Mikstury specjalne, 1/dzień efekt               |
+| 3️      | Rzadki                 | 1000–4000 GP      | Amulet Ciszy Umysłu, przedmioty z bonusem MP    |
+| 4️      | Wyjątkowy              | 5000–20000+ GP    | Artefakty frakcyjne, bronie z duszą             |
+| 5️      | Unikat (Artefakt)      | bezcenne          | Oko Niewidzącego Boga, Pieczęć Farsunga         |
+
+CZYNNIKI WPŁYWAJĄCE NA WARTOŚĆ
+------------------------------
+
+1. Rzadkość (skala powyżej)
+   – główny mnożnik wartości
+
+2. Efekt mechaniczny
+   – czy daje pasywny bonus, jednorazowy efekt, automatyzację?
+   – jak bardzo wpływa na balans gry?
+
+3. Koszt wytworzenia (jeśli możliwy)
+   – surowce alchemiczne, magia, specjalistyczne rytuały
+
+4. Dostępność społeczna
+   – czy da się go kupić? Czy należy do frakcji/rodu?
+
+5. Cechy dodatkowe
+   – przekleństwo, reputacja, ukryty efekt, czarny rynek
+
+PRZYKŁAD: AMULET CISZY UMYSŁU
+-----------------------------
+- Rzadkość: Poziom 3 – Rzadki
+- Efekt: +10 MP po przypisaniu, tylko dla maga
+- Mechanika przypisania: 24h noszenia, nie znika przy zdjęciu
+- Przypisanie znika tylko po śmierci lub rytualnym zerwaniu
+
+→ Szacunkowa wartość: **ok. 2400 GP**
+
+Uwagi końcowe:
+- Artefakty unikatowe są bezcenne – mogą być jedynie nagrodą, dziedzictwem lub elementem kampanii.
+- Ceny mogą być zmienne zależnie od regionu, frakcji i popytu.

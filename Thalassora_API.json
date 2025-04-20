@@ -1,0 +1,179 @@
+{
+  "world_name": "Thalassora",
+  "description": "Thalassora to świat niemal całkowicie pokryty wodą, z trzema wielkimi wyspami zajmowanymi przez trzy rywalizujące frakcje. Świat inspirowany złotą erą piractwa (koniec XVII wieku), ale z rzadką i tajemniczą magią.",
+
+  "search_guidelines": {
+    "default_strategy": "Zawsze najpierw sprawdzaj endpointy w biblii i instrukcje odnośnie ich stosowania, a następnie odpytaj API przed zakładaniem odpowiedzi.",
+    "uncertain_queries": "Jeśli zapytanie jest niejasne (np. 'wilki'), ustal, czy chodzi o rasę, mit czy zwierzę."
+  },
+
+  "endpointDefinitions": {
+    "context_search": {
+      "description": "Wyszukuje obiekty kontekstowe w świecie gry, w tym postacie, miasta, frakcje, statki, rasy, zaklęcia, bóstwa, notatki i inne.",
+      "endpoint": "/contextSearch",
+      "query_parameters": ["context", "..."],
+      "instructions": {
+        "available_contexts": [
+          "CHARACTER",
+          "CITY",
+          "SPELL",
+          "FACTION",
+          "SESSION",
+          "FIRSTNAME",
+          "RACE",
+          "HERB",
+          "ITEM",
+          "ALCHEMICAL_INGREDIENT",
+          "ALCHEMICAL_RESULT",
+          "DEITY",
+          "LASTNAME",
+          "MYTH_LEGEND",
+          "POTION",
+          "SHIP",
+          "TRADE_GOOD",
+          "WEAPON",
+          "WORLD_NOTE",
+          "WORLD_NOTE_INBOX",
+          "STORY_THREAD"
+        ],
+        "general": "Parametr 'context' jest obowiązkowy i musi być ustawiony zgodnie z jedną z wartości podanych w 'available_contexts'. Wszystkie pola tekstowe są przeszukiwane z użyciem LIKE, bez rozróżnienia wielkości liter. Wyniki są zawsze zwracane jako lista, nawet jeśli zawierają tylko jeden element.",
+        "contexts": {
+          "CITY": "Jeśli podano tylko city1 → zwróć wszystkie połączenia z tym miastem. Jeśli podano zarówno city1 i city2 → zwróć odległość pomiędzy nimi jako obiekt z liczbą zmiennoprzecinkową (w tablicy). Można również wyszukiwać po innych polach, jak cityName, cityType, economicFocus itd.",
+          "SESSION": "Pola storyThreads i locations obsługiwane są jako pary klucz-wartość, np. storyThreadKey/storyThreadValue i locationKey/locationValue.",
+          "RACE": "Wyszukiwanie rasy działa zarówno dla liczby pojedynczej, jak i mnogiej. Przykład: 'Wilki' zostanie przekształcone na 'Wilk'.",
+          "SHIP": "Parametr shipPurposeCode przyjmuje jedną z wartości: 'Wojenny', 'Uzbrojony Handlowy', 'Handlowy'.",
+          "FIRSTNAME": "Parametr gender przyjmuje wartości: 'male', 'samiec' lub 'female', 'samica'. Rasa dopasowywana jest automatycznie po nazwie tekstowej – nie trzeba znać ID.",
+          "WORLD_NOTE_INBOX": "Można wyszukiwać notatki według tytułu, treści, tagów, statusu, typu i priorytetu. Dostępne wartości dla pól enumowych:\n- noteType: 'pomysł', 'zadanie', 'inspiracja', 'pytanie', 'notatka'\n- status: 'do_zrobienia', 'w_trakcie', 'zrobione', 'zarchiwizowane'\n- priority: 'niski', 'normalny', 'wysoki'"
+        }
+      }
+    },
+
+    "random_characters": {
+      "description": "Generuje losowe postacie na podstawie rasy, płci i ilości.",
+      "query_parameters": ["race", "gender", "number"],
+      "endpoint": "/characters/generate-random",
+      "instructions": "Jeśli użytkownik prosi o wygenerowanie postaci, użyj podanej przez użytkownika rasy i płci jeśli podał. W przeciwnym razie pomiń brakujące pola – API samo wybierze losowo uwzględniając rozkład procentowy. Jeśli nie podano liczby, domyślnie generuj 1 postać."
+    },
+
+    "createOrUpdateCharacter": {
+      "description": "Tworzy nową postać lub aktualizuje istniejącą.",
+      "body_parameters": ["Character"],
+      "endpoint": "/characters"
+    },
+
+    "createOrUpdateCityOrDistance": {
+      "description": "Tworzy nowe miasto, aktualizuje istniejące lub dodaje dystans między miastami.",
+      "endpoint": "/cities",
+      "body_parameters": {
+        "CityOrDistanceRequest": {
+          "Miasto": {
+            "cityName": "Nazwa miasta",
+            "factionId": "ID frakcji (opcjonalne)",
+            "population": "Liczba mieszkańców",
+            "cityType": "Typ miasta (np. metropolia, port)",
+            "economicFocus": "Opis gospodarki",
+            "militaryPresence": "Poziom wojskowości",
+            "lawAndOrder": "Poziom prawa i porządku",
+            "geographicalLocation": "Pozycja geograficzna (opisowa)",
+            "climate": "Klimat",
+            "notableFeatures": "Cechy charakterystyczne",
+            "reputation": "Reputacja miasta"
+          },
+          "Dystans": {
+            "cityFrom": "Nazwa pierwszego miasta",
+            "cityTo": "Nazwa drugiego miasta",
+            "distanceNm": "Odległość w milach morskich (liczba zmiennoprzecinkowa)"
+          }
+        }
+      },
+      "instructions": "Jeśli chcesz dodać nowe miasto lub zaktualizować istniejące, prześlij dane miasta jako obiekt 'City'. Jeśli chcesz dodać odległość między dwoma miastami, prześlij pola 'cityFrom', 'cityTo' i 'distanceNm'. Nie przesyłaj obu zestawów danych naraz – API odrzuci takie żądanie jako niejednoznaczne."
+    },
+
+    "createOrUpdateGameSession": {
+      "description": "Tworzy nową sesję gry lub aktualizuje istniejącą.",
+      "body_parameters": ["GameSession"],
+      "endpoint": "/sessions"
+    },
+
+    "createOrUpdateItem": {
+      "description": "Tworzy nowy przedmiot lub aktualizuje istniejący.",
+      "body_parameters": ["Item"],
+      "endpoint": "/items",
+    },
+
+    "createOrUpdateMythLegend": {
+      "description": "Tworzy nowy mit/legendę lub aktualizuje istniejące.",
+      "body_parameters": ["MythLegend"],
+      "endpoint": "/myths-and-legends"
+    },
+
+    "addPotions": {
+      "description": "Zapisuje nowe mikstury do bazy danych.",
+      "body_parameters": ["Potion[]"],
+      "endpoint": "/potions"
+    },
+
+    "createOrUpdateSpell": {
+      "description": "Tworzy lub aktualizuje czar.",
+      "body_parameters": ["Spell"],
+      "endpoint": "/spells"
+    },
+
+    "createOrUpdateTradeGood": {
+      "description": "Tworzy lub aktualizuje towar handlowy.",
+      "body_parameters": ["TradeGoods"],
+      "endpoint": "/trade-goods"
+    },
+
+    "createOrUpdateWeapon": {
+      "description": "Tworzy lub aktualizuje wpis dotyczący broni.",
+      "body_parameters": ["Weapon"],
+      "endpoint": "/weapons"
+    },
+
+    "createOrUpdateWorldNote": {
+      "description": "Tworzy nową notatkę świata lub aktualizuje istniejącą.",
+      "endpoint": "/world-notes",
+      "body_parameters": {
+        "WorldNote": {
+          "id": "(opcjonalne) ID notatki – jeśli podane i istnieje, notatka zostanie zaktualizowana",
+          "title": "Tytuł notatki (wymagany)",
+          "category": "Kategoria notatki (np. historia, magia, frakcje)",
+          "description": "Treść notatki (wymagana)",
+          "relatedEntities": "Powiązane obiekty (np. ID lub nazwy powiązanych frakcji, postaci itd.)",
+          "mechanics": "Informacje mechaniczne (opcjonalne)",
+          "tags": "Lista tagów związanych z notatką",
+          "createdAt": "(tylko do odczytu) Data utworzenia"
+        }
+      },
+      "instructions": "Aby dodać nową notatkę świata, nie podawaj pola 'id' lub użyj ID, które jeszcze nie istnieje. Jeśli podasz istniejące ID, notatka zostanie zaktualizowana. Pola 'createdAt' i 'updatedAt' są ustawiane automatycznie i nie należy ich przesyłać."
+    },
+
+    "createOrUpdateWorldNotesInbox": {
+      "description": "Tworzy nową notatkę w skrzynce świata lub aktualizuje istniejącą.",
+      "endpoint": "/api/worldNotesInbox",
+      "body_parameters": {
+        "WorldNotesInbox": {
+          "id": "(opcjonalne) ID notatki – podaj, jeśli aktualizujesz istniejącą",
+          "title": "Tytuł notatki (wymagany)",
+          "content": "Treść notatki (wymagany)",
+          "noteType": "Typ notatki: 'pomysł', 'zadanie', 'inspiracja', 'pytanie', 'notatka' (domyślnie: notatka)",
+          "status": "Status notatki: 'do_zrobienia', 'w_trakcie', 'zrobione', 'zarchiwizowane' (domyślnie: do_zrobienia)",
+          "priority": "Priorytet notatki: 'niski', 'normalny', 'wysoki' (domyślnie: normalny)",
+          "tags": "Tagi oddzielone przecinkami (np. 'frakcje,alchemia')"
+        }
+      },
+      "instructions": "Jeśli nie podano ID lub ID nie istnieje, zostanie utworzona nowa notatka. W przeciwnym razie notatka zostanie zaktualizowana. Pola 'createdAt' i 'updatedAt' są tylko do odczytu i ustawiane automatycznie."
+    }
+  },
+
+
+  "context_notes": {
+    "races": "Fera to ogólne określenie dla wszystkich ras, ale każda ma swoją unikalną kulturę.",
+    "ships": "Każdy statek jest unikalny, więc API zwraca indywidualne modele, a nie kategorie.",
+    "magic": "Nie każdy ma dostęp do magii, a niektóre jej formy są nielegalne.",
+    "legends": "Niektóre mity są oparte na faktach. Jeśli nie znajdziesz dokładnej odpowiedzi, sprawdź powiązane notatki świata."
+  },
+
+  "common_misunderstandings": []
+}

@@ -1,0 +1,14 @@
+Data sesji (realna):
+[Wpisz datę w formacie RRRR-MM-DD]
+
+Daty w świecie gry (in-universe):
+[Wypisz kolejne dni sesji, np. "14 Miesiąca Kłów, Rok 943"; możesz podać kilka, jeśli akcja trwała dłużej]
+
+Lokacje odwiedzone:
+[Wypisz miejsca, które odwiedzili bohaterowie; najlepiej podać nazwę, typ miejsca (np. miasto, wyspa, las, okręt) i ewentualnie dodatkowe szczegóły]
+
+Ważni NPC obecni:
+[Wypisz imiona lub opisy ważnych postaci niezależnych, które odegrały istotną rolę w sesji]
+
+Podsumowanie:
+[Napisz 1–2 akapity podsumowania wydarzeń z sesji: co się działo, co odkryto, kto się wyróżnił, jakie były decyzje i konsekwencje. Styl swobodny lub klimatyczny, wedle uznania]

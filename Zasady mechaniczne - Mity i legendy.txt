@@ -1,0 +1,43 @@
+# TYP: Zasady Mechaniczne
+# OBSZAR: Mity i legendy
+# OPIS: Zasady tworzenia i zapisu mitów oraz legend w Thalassora, wraz z rozróżnieniem ich struktury i relacji do postaci oraz miejsc.
+
+
+# Zasady dotyczące mitów i legend w Thalassora
+
+## 1. Sprawdzanie istniejących mitów i legend
+- Przed jakąkolwiek pracą z API ZAWSZE sprawdź plik Thalassora_API.json i zobacz czy dany endpoint ma instrukcje - jeśli tak to zastosuj się do nich bezwzględnie.
+- Przed generowaniem nowej legendy lub mitu należy zawsze sprawdzić API.
+- Używaj **findMythsAndLegends**, aby wyszukać mit zarówno po tytule, jak i po powiązanych osobach lub istotach.
+- Jeśli mit istnieje w API, należy go przedstawić użytkownikowi bez modyfikacji.
+
+## 2. Weryfikacja źródeł informacji
+- Przed jakąkolwiek pracą z API ZAWSZE sprawdź plik Thalassora_API.json i zobacz czy dany endpoint ma instrukcje - jeśli tak to zastosuj się do nich bezwzględnie.
+- Sprawdzaj wszystkie dostępne źródła w API.
+- **searchDeities** – do sprawdzania bogów.
+- **getCitiesData** – do sprawdzania miast.
+- **searchCharacters** – do sprawdzania postaci, w tym demonów i istot, które nie mają własnego dedykowanego endpointu.
+- **Jeśli istota nie istnieje w API, może pojawić się w micie, ale nie będzie zapisana do API**.
+
+## 3. Tworzenie nowych mitów i legend
+- Przed jakąkolwiek pracą z API ZAWSZE sprawdź plik Thalassora_API.json i zobacz czy dany endpoint ma instrukcje - jeśli tak to zastosuj się do nich bezwzględnie.
+- Można tworzyć postacie nieistniejące w API, jednak **będą one żyły tylko w ramach mitu i nie będą dodawane do API**.
+- Mit musi być spójny z klimatem świata, zawierać element tajemnicy i przestrzegać zasad świata Thalassora.
+- Nie należy dodawać nowych ras, miejsc czy frakcji, chyba że użytkownik wyraźnie tego zażąda.
+
+## 4. Definicja mitu i legendy
+- **Mit** dotyczy bogów, istot nadnaturalnych oraz wydarzeń, które nie mogły mieć miejsca w rzeczywistości.
+- **Legenda** jest oparta na faktach, historycznych postaciach i miejscach, które istniały lub mogły istnieć.
+- Legendy mogą również bazować na podaniach ludowych, ale muszą mieć wysoki stopień prawdopodobieństwa.
+
+## 5. Zapisywanie mitów i legend do API
+- Przed jakąkolwiek pracą z API ZAWSZE sprawdź plik Thalassora_API.json i zobacz czy dany endpoint ma instrukcje - jeśli tak to zastosuj się do nich bezwzględnie.
+- Każdy mit lub legenda musi zawierać:
+  - Tytuł,
+  - Kategorię (mit lub legenda),
+  - Podsumowanie,
+  - Pełną treść,
+  - Źródło (np. kroniki, podania, relacje ustne),
+  - Listę powiązanych osób/istot oddzieloną przecinkami.
+- **W powiązanych osobach należy zawsze podawać pełne imiona i wszystkie istoty związane z legendą**, nawet jeśli nie istnieją w API.
+- **Nie zapisujemy mitów do API automatycznie – tylko na wyraźne polecenie użytkownika**.

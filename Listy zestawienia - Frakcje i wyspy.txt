@@ -1,0 +1,28 @@
+# TYP: Listy i Zestawienia
+# OBSZAR: Frakcje i wyspy
+# OPIS: Opisy głównych frakcji świata Thalassora wraz z charakterystyką ich terytoriów i podejściem do magii.
+
+# Frakcje istniejące w świecie Thalassora
+
+## Imperium Solaryjskie  
+Imperium Solaryjskie to największa i najbardziej zorganizowana potęga militarna w Thalassorze. Jego flota, złożona z potężnych okrętów wojennych, pilnuje imperialnych szlaków handlowych i utrzymuje kontrolę nad strategicznymi portami. Solaryjczycy wierzą w hierarchię, porządek i jedność pod rządami silnej monarchii, której wpływy sięgają daleko poza granice kontynentu. Są znani z agresywnej polityki ekspansji i traktowania niezależnych wysp jako przyszłych prowincji ich imperium. Ich stosunek do magii jest pragmatyczny – oficjalnie jej nie popierają, ale korzystają z niej, gdy jest użyteczna dla ich celów.
+
+## Królestwo Venderii  
+Venderia to stare, dumne królestwo, które przez wieki wykształciło silną marynarkę i kulturę opartą na szlacheckiej elicie oraz potężnych gildiach kupieckich. W przeciwieństwie do Imperium Solaryjskiego nie dąży do ekspansji, lecz do zabezpieczenia własnych interesów i ochrony swych szlaków handlowych. Venderianie wierzą w honor, lojalność i wypracowaną pozycję. Ich statki są szybkie, ich flota sprawna, a sojusze liczne. Choć nie są tak agresywni jak Solaryjczycy, to w razie zagrożenia potrafią uderzyć z chirurgiczną precyzją. Magia jest u nich akceptowana, ale podlega surowym regulacjom.
+
+## Liga Eltaryjska  
+Liga Eltaryjska to federacja niezależnych miast-państw i wyspiarskich republik, które sprzymierzyły się przeciwko dominacji Solaryjczyków i Venderian. Ich mieszkańcy to wynalazcy, kartografowie, żeglarze i odkrywcy – ludzie, którzy szukają nowych możliwości i odrzucają stare hierarchie. Liga ma najmniejszą flotę wojenną spośród trzech głównych frakcji, ale rekompensuje to mobilnością, siecią sojuszników wśród wolnych kapitanów i bardzo nowoczesną technologią. Magia jest tu powszechnie używana – zarówno w codziennym życiu, jak i w strategiach wojennych.
+
+## Konsorcjum Handlowe  
+Konsorcjum Handlowe zrzesza kupców, armatorów i właścicieli statków transportowych, którzy dbają o stabilność morskiego handlu. Ta organizacja nie posiada własnej floty wojennej, ale jej wpływy sięgają daleko – ich złoto otwiera drzwi nawet w najbardziej zamkniętych portach. Konsorcjum balansuje między głównymi frakcjami, sprzedając towary każdemu, kto zapłaci, i wykorzystując swoją sieć wpływów do unikania wojny. Formalnie nie angażują się w konflikty polityczne, ale w praktyce ich działania często przechylają szalę na jedną ze stron.
+
+## Bractwo Czarnych Żagli  
+Bractwo Czarnych Żagli to luźna koalicja piratów, przemytników, najemników i innych wyrzutków, którzy odrzucają wszelkie prawa poza własnymi. Nie mają jednolitej struktury dowodzenia, ale przestrzegają spisanego Kodeksu Bractwa – zbioru zasad, które regulują podział łupów, lojalność wobec załogi, zakaz zdrady i obowiązek wspólnej obrony w razie zagrożenia. Ich wyspy to kryjówki pełne skarbów, łupów i tajemnic. Część ich członków to romantyczni awanturnicy, inni to brutalni rabusie, ale wszyscy zgadzają się co do jednego: żadna flota, żadne królestwo, żadne imperium nie będzie im mówić, jak mają żyć.
+
+Główne wyspy fakcyjne to:
+Solara – Imperium Solarne
+Venderia – Królestwo Venderii
+Meridion – Liga Eltaryjska
+Nyxarion – terytorium Białych Niedźwiedzi (niezbadane)
+
+(Szczegóły każdej frakcji należy pobierać z API)

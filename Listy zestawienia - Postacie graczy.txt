@@ -1,0 +1,106 @@
+# TYP: Listy i Zestawienia
+# OBSZAR: Postacie graczy
+# OPIS: Zestawienie opisów postaci graczy występujących w kampanii Thalassora, wraz z danymi fabularnymi i mechanicznymi.
+
+## 📜 Postacie Graczy – Thalassora
+
+### 👤 **Matias Torres**
+- **Gracz:** Kuzyn
+- **Rasa:** Koń
+- **Wiek:** 24
+- **Rola na statku:** Kapitan
+- **Pochodzenie:** Meridion
+
+#### 💬 Charakterystyka postaci:
+Charyzmatyczny lekkoduch o luźnym podejściu do zasad moralnych. Żywo reaguje na otoczenie, potrafi zjednywać sobie ludzi i szybko adaptuje się do nowych warunków. W głębi duszy szuka miejsca, gdzie naprawdę przynależy.
+
+#### 📊 Statystyki:
+- **Mocne strony:**
+  - **Zręczność (DEX) – 75** → sprawność fizyczna, refleks, inicjatywa.
+  - **Inteligencja (INT) – 75** → spryt, zdolności planowania, taktyczne myślenie.
+  - **Kondycja (CON) – 70** → wytrzymałość fizyczna, odporność na zmęczenie.
+- **Słabe strony:**
+  - **Siła Woli (POW) – 40** → podatność na wpływy zewnętrzne, słaba mentalna odporność.
+  - **Siła (STR) – 40** → nie najlepiej radzi sobie z ciężką pracą fizyczną.
+
+#### 🧠 Umiejętności i talenty:
+- **Dowodzenie (Command)** – wysoka wartość w umiejętnościach związanych z przywództwem.
+- **Perswazja i manipulacja** – sprawdza się w interakcjach społecznych.
+- **Oszustwa, przekonywanie, szybka adaptacja** – typowy samozwańczy przywódca ulicznej zbieraniny, który odnalazł się na morzu.
+
+---
+
+### 👤 **Blaze Haskir**
+- **Gracz:** Bary
+- **Rasa:** Lis rudy
+- **Wiek:** 22
+- **Rola na statku:** Pierwszy oficer / Mag / Medyk
+- **Pochodzenie:** Meridion
+
+#### 💬 Charakterystyka postaci:
+Cichy, uprzejmy i spokojny lis o ciepłym spojrzeniu. Blaze kieruje się altruizmem i wiarą w dobro innych, będąc głosem rozsądku i łagodności w zespole. Jego kompetencje magiczne i medyczne czynią go kluczowym członkiem załogi.
+
+#### 📊 Statystyki:
+- **Mocne strony:**
+  - **Inteligencja (INT) – 90** → genialny umysł, doskonała pamięć, błyskotliwość.
+  - **Siła Woli (POW) – 100** → niezwykle silna psychika, odporność magiczna, skupienie.
+- **Słabe strony:**
+  - **Siła (STR) – 40** → brak predyspozycji fizycznych, nieporadność w pracy ręcznej.
+  - **Zręczność (DEX) – 40** → nieco ociężały ruchowo.
+
+#### 🧠 Umiejętności i talenty:
+- **Magia** – dostęp do potężnych zaklęć, szczególnie ochronnych i wspierających.
+- **Medycyna, zielarstwo, alchemia** – wiedza specjalistyczna w leczeniu, analizie i tworzeniu mikstur.
+- **Spokój i empatia** – doskonały mediator i opiekun psychiczny drużyny.
+
+---
+
+👤 Eran Fenrik
+Gracz: Koza
+Rasa: Koń
+Wiek: 30
+Rola na statku: Nawigator / Sternik
+Pochodzenie: Meridion
+
+💬 Charakterystyka postaci:
+Silny i uparty, z nutą nieprzewidywalności. Eran potrafi zaskoczyć zarówno impulsywnym działaniem, jak i wyjątkowo logicznym wnioskowaniem – choć częściej kieruje się instynktem niż analizą. Zdecydowany i dominujący, ale też zdolny do lojalności wobec swojej załogi.
+
+📊 Statystyki:
+Mocne strony:
+Siła (STR) – 70 → duża sprawność fizyczna, łatwość w pracy na pokładzie.
+Inteligencja (INT) – 70 → dobre zdolności orientacji, pamięć przestrzenna, planowanie nawigacyjne.
+Edukacja (EDU) – 60 → solidna wiedza fachowa, szczególnie w zakresie żeglugi i kartografii.
+Brak wyraźnych słabości: wszystkie atrybuty na przyzwoitym poziomie, brak rażących niedoborów.
+
+🧠 Umiejętności i talenty:
+Nawigacja i kierowanie statkiem – doświadczenie i pewność w roli sternika.
+Dobra równowaga między siłą fizyczną a intelektem – sprawdza się w praktycznych zastosowaniach.
+Dominujący charakter – często przejmuje inicjatywę, nawet jeśli nie zawsze słusznie.
+
+---
+
+👤 Lyonis Kazim
+Gracz: Kiri
+Rasa: Słoń
+Wiek: 110
+Rola na statku: Historyk
+Pochodzenie: Meridion
+
+💬 Charakterystyka postaci:
+Zblazowany erudyta, który na morzu znalazł tylko kolejny obszar do badań. Lyonis przejawia wyjątkowo niski poziom zaangażowania emocjonalnego, ale jego umysł jest bronią ostrzejszą niż szabla. Jeśli coś nie dotyczy historii, nauki lub własnej kiesy – zapewne go nie obchodzi.
+
+📊 Statystyki:
+Mocne strony:
+Inteligencja (INT) – 90 → absolutnie błyskotliwy, mistrz analizy i dedukcji.
+Edukacja (EDU) – 90 → encyklopedyczna wiedza, znajomość kultur, historii, zwyczajów i struktur.
+Zręczność (DEX) – 60 → zaskakująco sprawny jak na uczonego, nieco ponadprzeciętna koordynacja.
+
+Słabe strony:
+Siła (STR) – 40 → fizycznie słaby, mało przydatny w pracy pokładowej.
+Kondycja (CON) – 40 → mała odporność, szybko się męczy, podatny na choroby.
+Siła Woli (POW) – 40 → dystansuje się od emocji, czasem zbyt bierny lub łatwo się wycofuje.
+
+🧠 Umiejętności i talenty:
+Wiedza historyczna i kulturowa – nieocenione źródło informacji przy spotkaniach z innymi frakcjami, legendami, reliktami.
+Dedukcja i łączenie faktów – doskonały analityk sytuacji i strateg długoterminowy.
+Obojętność i pragmatyzm – nie poddaje się emocjom, co czyni go odpornym na manipulację i panikę – choć czasem także... bezużytecznym emocjonalnie.

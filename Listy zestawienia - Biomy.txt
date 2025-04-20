@@ -1,0 +1,15 @@
+# TYP: Listy i Zestawienia
+# OBSZAR: Biomy
+# OPIS: Lista biomów występujących w Thalassora wraz z informacją o typowych składnikach alchemicznych i zielarskich w każdym z nich.
+
+Lista biomów – Thalassora
+
+- Bagna: Wilgotne, grząskie tereny pełne stojącej wody, mgieł i zgnilizny. Składniki stąd często mają właściwości trujące lub iluzoryczne.
+- Dżungla: Gęsto zarośnięte lasy tropikalne, duszne i wilgotne. Bogactwo życia i intensywne właściwości magiczne składników.
+- Góry: Wysokie i skaliste obszary o trudnym dostępie. Składniki odpornościowe, stabilizujące lub rzadkie katalizatory.
+- Jaskinie: Podziemne przestrzenie, często ciemne i wilgotne. Składniki związane z cieniem, śmiercią lub mutacją.
+- Klify: Strome, skaliste wybrzeża o dużej ekspozycji na wiatr i sól. Składniki niestabilne, często silnie reagujące z innymi.
+- Las: Zróżnicowane leśne obszary, od gęstych borów po lekkie zagajniki. Składniki harmonizujące i wzmacniające naturalne procesy.
+- Łąka: Otwarte, nasłonecznione tereny trawiaste. Składniki łagodne, wspierające, często regeneracyjne.
+- Pustynia: Suche, niegościnne krainy o dużych wahaniach temperatur. Składniki o działaniu stymulującym, wytrzymałościowym.
+- Wybrzeże: Strefy przybrzeżne – piaszczyste, skaliste lub porośnięte wodorostami. Składniki związane z wodą, snem i oczyszczeniem.

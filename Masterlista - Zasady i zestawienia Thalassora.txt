@@ -1,0 +1,91 @@
+# TYP: Lista
+# OBSZAR: Zasady i zestawienia
+# OPIS: Kompletny spis wszystkich plików zawierających zasady i zestawienia świata Thalassora, z podziałem na typy i obszary.
+
+---
+
+## 📁 ZASADY MECHANICZNE
+
+### • Zasady mechaniczne - Alchemia.txt
+**Obszar:** Alchemia  
+**Opis:** Klasyfikacja składników, kolory, magical resonance i crafting substancji.
+
+### • Zasady mechaniczne - Frakcje.txt
+**Obszar:** Frakcje  
+**Opis:** Reguły użycia i pobierania danych frakcji z API.
+
+### • Zasady mechaniczne - Historia swiata.txt
+**Obszar:** Historia świata
+**Opis:** Chronologiczny zarys dziejów Thalassory
+
+### • Zasady mechaniczne - Magia.txt
+**Obszar:** Magia  
+**Opis:** Struktura rozwoju magii, poziomy wtajemniczenia, typy.
+
+### • Zasady mechaniczne - Miasta.txt
+**Obszar:** Miasta  
+**Opis:** Tworzenie miast, wymagane pola, dystanse, praca z API.
+
+### • Zasady mechaniczne - Mity i legendy.txt
+**Obszar:** Mity i legendy  
+**Opis:** Zasady tworzenia, definicje, struktura i weryfikacja.
+
+### • Zasady mechaniczne - Nazwy statkow.txt
+**Obszar:** Nazwy statkow  
+**Opis:** Reguły generowania nazw statków, wzorce językowe.
+
+### • Zasady mechaniczne - Rasy i postacie.txt
+**Obszar:** Rasy i postacie  
+**Opis:** Reguły generowania postaci, losowania imion, struktura danych.
+
+### • Zasady mechaniczne - Sesje.txt
+**Obszar:** Sesje  
+**Opis:** Reguły tworzenia i zapisu sesji, zarządzania wątkami fabularnymi.
+
+### • Zasady mechaniczne - Statki.txt
+**Obszar:** Statki  
+**Opis:** Parametry statków, dane z API, przykładowa załoga.
+
+### • Zasady mechaniczne - Wycena przedmiotow magicznych.txt
+**Obszar:** Wycena przedmiotow magicznych  
+**Opis:** Kategorie rzadkości, czynniki wpływające na wartość.
+
+---
+
+## 📁 ZASADY SPOŁECZNE
+
+### • Zasady spoleczne - Biale niedzwiedzie.txt
+**Obszar:** Biale niedzwiedzie  
+**Opis:** Hierarchia, rytuały inicjacyjne, seksualność, dominacja.
+
+### • Zasady spoleczne - Ogolne.txt
+**Obszar:** Ogolne  
+**Opis:** Religia, tolerancja, migracje, otwartość kulturowa.
+
+### • Zasady spoleczne - Zwiazki i seksualnosc.txt
+**Obszar:** Zwiazki i seksualnosc  
+**Opis:** Normy kulturowe, wiek przyzwolenia, inicjacja, relacje społeczne.
+
+---
+
+## 📁 LISTY I ZESTAWIENIA
+
+### • Listy zestawienia - Biomy.txt
+**Obszar:** Biomy  
+**Opis:** Lista biomów z typowymi składnikami alchemicznymi i zielarskimi.
+
+### • Listy zestawienia - Frakcje i wyspy.txt
+**Obszar:** Frakcje i wyspy  
+**Opis:** Opisy głównych frakcji i ich terytoriów, podejście do magii.
+
+### • Listy zestawienia - Postacie graczy.txt
+**Obszar:** Postacie graczy  
+**Opis:** Zestawienie postaci graczy z opisami fabularnymi.
+
+---
+
+## 📁 SZABLONY
+
+### • Szablon - Wpis sesji.txt  
+**Obszar:** Sesje  
+**Opis:** Gotowy szablon wpisu sesyjnego zawierający pola daty, lokacji, NPCów oraz podsumowania.

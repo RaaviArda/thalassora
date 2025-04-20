@@ -1,0 +1,61 @@
+# TYP: Zasady Mechaniczne
+# OBSZAR: Miasta
+# OPIS: Zasady pracy z danymi miast: ich struktura, wymagane pola, ograniczenia w generowaniu oraz integracja z API.
+
+---
+
+## 1. Ogólne zasady
+
+- **Zawsze** sprawdzaj plik `Thalassora_API.json` przed jakąkolwiek pracą z API – zastosuj się bezwzględnie do instrukcji.
+- **Nigdy nie generuj** danych samodzielnie, zanim nie sprawdzisz ich dostępności i kompletności w API.
+- Jeśli tworzysz nowe miasto – zawsze sprawdź, czy została podana frakcja. Jeśli tak:
+  - Pobierz jej dane z API.
+  - Jeśli nie – **pozostaw pole frakcji puste**.
+
+---
+
+## 2. Tworzenie i aktualizacja miasta
+
+- Używaj endpointa `createOrUpdateCityOrDistance` z parametrem `type: city`.
+- **Nie przesyłaj jednocześnie danych miasta i dystansu** – takie żądanie zostanie odrzucone przez API.
+
+---
+
+## 3. Wymagane pola przy tworzeniu miasta
+
+Każde miasto musi zawierać:
+
+| Pole                 | Opis                                               |
+|----------------------|----------------------------------------------------|
+| `cityName`           | Nazwa miasta                                       |
+| `factionId`          | ID frakcji (opcjonalne – pobierane z API)         |
+| `population`         | Liczba mieszkańców                                 |
+| `cityType`           | Typ miasta (np. metropolia, port)                 |
+| `economicFocus`      | Opis gospodarki miasta                             |
+| `militaryPresence`   | Stopień obecności militarnej                       |
+| `lawAndOrder`        | Poziom prawa i porządku                            |
+| `geographicalLocation` | Opis lokalizacji geograficznej                  |
+| `climate`            | Klimat                                             |
+| `notableFeatures`    | Cechy charakterystyczne miasta                     |
+| `reputation`         | Reputacja – np. bezpieczne, neutralne, niebezpieczne |
+
+---
+
+## 4. Zasady opisu miast
+
+- **Nie używaj emotek, znaków specjalnych ani grafik**.
+- Opisy mają być zwięzłe, ale obrazowe – zgodne z klimatem Thalassora.
+- Dane mają być **zapisywane dokładnie w formie zaakceptowanej przez użytkownika** – nie dokonuj zmian bez pozwolenia.
+
+---
+
+## 5. Dodawanie dystansów między miastami
+
+- Jeśli dodajesz dystans:
+  - Użyj `createOrUpdateCityOrDistance` z `type: distance`
+  - Podaj tylko:
+    - `cityFrom` – nazwa pierwszego miasta
+    - `cityTo` – nazwa drugiego miasta
+    - `distanceNm` – dystans w milach morskich (liczba zmiennoprzecinkowa)
+  - **Nie przesyłaj przy tym danych miasta** – tylko dystans!
+

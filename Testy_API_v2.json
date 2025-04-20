@@ -1,0 +1,148 @@
+{
+  "checklist_name": "Thalassora API First Check - API Access Validation (v2)",
+  "description": "Agent musi bezwzględnie sprawdzić sekcję odpowiedniego endpointa w Thalassora_API.json przed każdym odczytem lub zapisem do API.",
+  "last_updated": "2025-04-01",
+  "tests": [
+    {
+      "id": "T1.1v2",
+      "description": "Wyszukiwanie rasy",
+      "input": "Podaj mi szczegóły rasy Lwy.",
+      "expected_behavior": [
+        "Agent sprawdza sekcję 'context_search' w Thalassora_API.json.",
+        "Używa context='RACE' i przekształca 'Lwy' na 'Lew'.",
+        "Dopiero po tym odpytuje API '/contextSearch'.",
+        "Nie generuje informacji ręcznie."
+      ]
+    },
+    {
+      "id": "T1.2v2",
+      "description": "Wyszukiwanie postaci",
+      "input": "Czy znasz jakąś postać o imieniu Darok?",
+      "expected_behavior": [
+        "Agent sprawdza sekcję 'context_search' w Thalassora_API.json.",
+        "Ustawia context='CHARACTER' i parametr name='Darok'.",
+        "Odpytuje '/contextSearch' dopiero po weryfikacji."
+      ]
+    },
+    {
+      "id": "T1.3v2",
+      "description": "Wyszukiwanie mitu",
+      "input": "Opowiedz mi legendę związaną z Eryonem.",
+      "expected_behavior": [
+        "Agent sprawdza sekcję 'context_search' w Thalassora_API.json.",
+        "Używa context='MYTH_LEGEND' i parametr relatedFigures='Eryon'.",
+        "Odpytuje '/contextSearch' po sprawdzeniu instrukcji."
+      ]
+    },
+    {
+      "id": "T1.5",
+      "description": "Wyszukiwanie notatki inbox",
+      "input": "Znajdź wszystkie zadania o wysokim priorytecie.",
+      "expected_behavior": [
+        "Agent sprawdza 'context_search' w Thalassora_API.json.",
+        "Używa context='WORLD_NOTE_INBOX' z filtrami noteType='zadanie', priority='wysoki'.",
+        "Odpytuje '/contextSearch'."
+      ]
+    },
+    {
+      "id": "T2.3",
+      "description": "Zapis miasta",
+      "input": "Zapisz nowe miasto z podanymi danymi.",
+      "expected_behavior": [
+        "Agent sprawdza sekcję 'createOrUpdateCityOrDistance' w Thalassora_API.json.",
+        "Wysyła obiekt City i NIE przesyła jednocześnie danych dystansu.",
+        "Używa '/cities' z typem='city'."
+      ]
+    },
+    {
+      "id": "T2.4",
+      "description": "Zapis dystansu między miastami",
+      "input": "Dodaj dystans między Miastem A i Miastem B.",
+      "expected_behavior": [
+        "Agent sprawdza sekcję 'createOrUpdateCityOrDistance' w Thalassora_API.json.",
+        "Wysyła cityFrom, cityTo i distanceNm bez innych danych.",
+        "Używa '/cities' z typem='distance'."
+      ]
+    },
+    {
+      "id": "T2.5",
+      "description": "Zapis czaru",
+      "input": "Dodaj ten czar do bazy.",
+      "expected_behavior": [
+        "Agent sprawdza sekcję 'createOrUpdateSpell' w Thalassora_API.json.",
+        "Weryfikuje wymagane pola jak spellName, mpCost, rangeMeters, castTime, itd.",
+        "Odpytuje '/spells' dopiero po weryfikacji."
+      ]
+    },
+    {
+      "id": "T2.6",
+      "description": "Zapis mikstury",
+      "input": "Dodaj te mikstury do bazy danych.",
+      "expected_behavior": [
+        "Agent sprawdza sekcję 'addPotions' w Thalassora_API.json.",
+        "Weryfikuje poprawność tablicy Potion[] (każdy wpis zawiera name, effect itd.).",
+        "Używa endpointa '/potions'."
+      ]
+    },
+    {
+      "id": "T2.7",
+      "description": "Zapis broni",
+      "input": "Zapisz tę broń do bazy danych.",
+      "expected_behavior": [
+        "Agent sprawdza sekcję 'createOrUpdateWeapon' w Thalassora_API.json.",
+        "Upewnia się, że podano wymagane pola: weaponType, damage, itd.",
+        "Używa endpointa '/weapons'."
+      ]
+    },
+    {
+      "id": "T2.8",
+      "description": "Zapis przedmiotu",
+      "input": "Zapisz przedmiot z tymi właściwościami.",
+      "expected_behavior": [
+        "Agent sprawdza sekcję 'createOrUpdateItem' w Thalassora_API.json.",
+        "Weryfikuje pola itemType, itemName, itemDescription itd.",
+        "Używa endpointa '/items'."
+      ]
+    },
+    {
+      "id": "T2.9",
+      "description": "Zapis towaru handlowego",
+      "input": "Dodaj nowy towar do listy handlowej.",
+      "expected_behavior": [
+        "Agent sprawdza sekcję 'createOrUpdateTradeGood' w Thalassora_API.json.",
+        "Weryfikuje wymagane pola jak tgName, tgUnitPrice itd.",
+        "Używa endpointa '/trade-goods'."
+      ]
+    },
+    {
+      "id": "T2.10",
+      "description": "Zapis notatki świata",
+      "input": "Dodaj tę notatkę do bazy wiedzy.",
+      "expected_behavior": [
+        "Agent sprawdza sekcję 'createOrUpdateWorldNote' w Thalassora_API.json.",
+        "Weryfikuje obecność pól title, category i description.",
+        "Używa endpointa '/world-notes'."
+      ]
+    },
+    {
+      "id": "T3.1v2",
+      "description": "Generowanie postaci z rasą",
+      "input": "Stwórz wilczą postać płci żeńskiej.",
+      "expected_behavior": [
+        "Agent sprawdza sekcję 'random_characters' w Thalassora_API.json.",
+        "Używa race='Wilk' i gender='samica' jako stringi bez pobierania ID.",
+        "Odpytuje '/characters/generate-random'."
+      ]
+    },
+    {
+      "id": "T4.1",
+      "description": "Błąd zapisu czaru bez spellName",
+      "input": "Zapisz czar bez podania spellName.",
+      "expected_behavior": [
+        "Agent wykrywa brak wymaganego pola.",
+        "Odmowa zapisu i zgłoszenie błędu użytkownikowi.",
+        "Nie wywołuje żadnego zapytania do API."
+      ]
+    }
+  ]
+}

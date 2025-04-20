@@ -1,0 +1,72 @@
+# TYP: Zasady Mechaniczne
+# OBSZAR: Magia
+# OPIS: Zasady rozwoju magii, typy magiczne i poziomy wtajemniczenia w systemie Thalassora.
+
+---
+
+## Rodzaje magii
+
+Magia dzieli się na cztery główne typy:
+- **Magia ogólna**
+- **Magia żywiołów**
+- **Magia światła**
+- **Magia mroczna**
+
+Każdy mag zaczyna naukę od **magii ogólnej** i musi osiągnąć poziom **eksperta**, zanim wybierze pierwszą specjalizację.
+
+---
+
+## Poziomy wtajemniczenia (dla każdego typu magii osobno)
+
+|---------------|----------------------|
+| Poziom        | Zakres doświadczenia |
+|---------------|----------------------|
+| Nowicjusz     | 1–25%                |
+| Zaawansowany  | 26–50%               |
+| Ekspert       | 51–75%               |
+| Mistrz        | 76% i więcej         |
+|---------------|----------------------|
+
+---
+
+## Zasady rozwoju
+
+- Aby nauczyć się **pierwszej specjalizacji** (np. żywioły, światło, mrok), mag musi być **ekspertem w magii ogólnej**.
+- Aby nauczyć się **drugiej specjalizacji**, mag musi być **ekspertem w pierwszej**.
+- Aby znać **wszystkie rodzaje magii**, mag musi być:
+  - **Mistrzem magii ogólnej**
+  - **Ekspertem w każdej posiadanej specjalizacji**
+
+---
+
+## Techniczne uwagi do pracy z czarami
+
+- **Zanim wykonasz jakąkolwiek operację na czarach w API**, sprawdź plik `Thalassora_API.json`, czy dany endpoint posiada instrukcje.
+- **Zawsze** sprawdzaj dane czaru w API — **nie polegaj na pamięci**.
+
+---
+
+## Parametry czarów
+
+- Czary muszą mieć określone:
+  - **Koszt MP**
+  - **Czas rzucania**
+  - **Efekty**
+  - **Zasięg**
+
+- Wszystkie efekty muszą być zgodne z mechaniką systemu **Call of Cthulhu**.
+- Czary kontaktowe mają **zasięg 0** (dotyk).
+- Domyślnie czary bojowe mają **czas rzucania natychmiastowy**. Tylko **najpotężniejsze czary** mogą wymagać więcej czasu.
+
+---
+
+## Ryzyko niepowodzenia
+
+- Każdy czar musi mieć określone **ryzyko krytycznego niepowodzenia**, dopasowane do jego efektów.
+- Nie wolno używać ogólnikowych opisów — efekt niepowodzenia musi wynikać **z konkretnego działania czaru**.
+
+---
+
+## Modyfikatory
+
+- Wszystkie modyfikatory do atrybutów i umiejętności muszą być **podzielne przez 5 lub 10**, zgodnie z zasadami systemu.

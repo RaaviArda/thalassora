@@ -1,0 +1,122 @@
+# TYP: Zasady Mechaniczne
+# OBSZAR: Nazwy statkow
+# OPIS: Zasady konstruowania nazw okrętów w Thalassora, z podziałem na style kulturowe, językowe i funkcjonalne.
+
+### Sposób generowania nazw statków w Thalassora
+
+**Założenia:**
+1. Nazwy mają unikać generycznych, oczywistych połączeń typu "Perła Północy" czy "Srebrny Żagiel".
+2. Inspirujemy się klasycznym nazewnictwem żeglarskim, gdzie nazwy są:
+   - Imionami
+   - Zniekształconymi łacińskimi/słowiańskimi/celtyckimi słowami
+   - Kombinacjami słów z różnych języków
+   - Lekko archaiczne lub egzotyczne w brzmieniu
+3. Dopuszczamy mieszanie końcówek językowych (np. włoskie, francuskie, łacińskie, staroangielskie), aby stworzyć unikalny klimat.
+4. Można wzorować się na nazwach znanych statków (np. Bonaventura – połączenie wersji angielskiej i polskiej).
+
+**Schemat:**
+
+1. Bierzemy bazę rdzeni wyrazowych: np. "Ventur", "Mara", "Vel", "Luc", "San", "Val".
+2. Dodajemy klasyczne zakończenia lub modyfikatory: "-ian", "-onna", "-ris", "-dor", "-morin", "-verna".
+3. Ewentualnie wplatamy element geograficzny lub symboliczny.
+4. W efekcie powstaje nazwa brzmiąca jak realne, historyczne imię statku.
+
+---
+
+### Lista przykładowych nazw statków:
+
+1. **Venturian**  
+2. **Maridonna**  
+3. **Valembras**  
+4. **Solcarin**  
+5. **Fiorenzo**  
+6. **Bravemara**  
+7. **Tirassia**  
+8. **Lucentis**  
+9. **Velmorin**  
+10. **Sanverna**  
+
+---
+
+**Przykład użycia:**
+Jeśli potrzeba nazwać nowy statek, generujemy nazwę poprzez losowy dobór rdzenia + końcówki z powyższych wzorców lub miksowanie elementów, tworząc coś w stylu:
+
+- "Vormarin"
+- "Kharvenna"
+- "Lucavira"
+- "Thalveris"
+
+Każda nazwa powinna brzmieć wiarygodnie, jakby pochodziła z bogatej tradycji Thalassory i miała swoje miejsce w annałach jej portów.
+
+
+### Zasady tworzenia nazw dwuczłonowych i wieloczłonowych dla statków w Thalassora
+
+**Cel:** Uniknięcie generycznych zlepków słów, stworzenie płynnych, unikalnych nazw brzmiących jak historyczne lub legendarne.
+
+---
+
+### Główne założenia:
+
+1. **Unikanie oczywistych połączeń** typu "Srebrny Żagiel", "Perła Północy", "Złoty Lew".
+2. Każda nazwa musi brzmieć jak **spójna całość** – nie może wyglądać jak prosty zlepek przymiotnika i rzeczownika.
+3. Inspiracja powinna pochodzić z:
+   - Zniekształconych słów łacińskich, celtyckich, słowiańskich,
+   - Połączeń rdzeni wyrazowych znanych z wcześniejszych nazw (np. "Ventur", "Mara", "Luc") z nowymi końcówkami,
+   - Wymyślonych nazw własnych, które pasują do klimatu epoki żaglowej.
+4. Możliwe jest użycie elementów geograficznych, bóstw czy motywów militarno-morskich, **ale w formie stylizowanej** (np. "Draxis" zamiast "Smok").
+
+---
+
+### Struktura typowej nazwy dwuczłonowej:
+
+**[Zniekształcony lub fantazyjny rdzeń] + [Fantazyjna końcówka lub drugi człon]**
+
+Przykład formuły:
+
+- **Pierwszy człon:**
+  - Może być oparty na znanych rdzeniach: "Ventur", "Mara", "Luc", "Val", "Vel", "San".
+  - Można dodać archaiczne, egzotyczne końcówki: "-ar", "-ion", "-lor", "-ven", "-thera", "-dor", "-mir".
+  - Przykłady: **Velcaron**, **Bravilor**, **Santhera**, **Tirandel**
+
+- **Drugi człon:**
+  - Nie powinien być bezpośrednio tłumaczalnym rzeczownikiem.
+  - Najlepiej, jeśli przypomina nazwę osobową, mitologiczną lub geograficzną.
+  - Przykłady: **Dorim**, **Volin**, **Aenra**, **Draxis**, **Vossar**
+
+---
+
+### Przykłady poprawnych nazw dwuczłonowych:
+
+1. **Velcaron Dorim**
+2. **Santhera Volin**
+3. **Bravilor Aenra**
+4. **Tirandel Vossar**
+5. **Lucavern Draxis**
+
+---
+
+### Zasady dodatkowe:
+
+- **Brak bezpośrednich przymiotników typu "Złoty", "Żelazny" bez ich przerobienia.**
+  - Jeśli koniecznie chcemy zawrzeć taki motyw, można zniekształcić: np. zamiast "Żelazny Tron" → **Ferundar Trion**.
+
+- **Brak nazw wprost wskazujących na funkcję ("Fregata Burzowa") – zamiast tego sugerujemy symbolikę lub imię ("Vendaris Lorim").**
+
+- **Można tworzyć nazwy trójczłonowe lub dłuższe, ale muszą być płynne, np.:**
+  - **Tiravel Dornara Vossar**
+  - **Lucavern Santhira Morn**
+
+- **Styl dopasowujemy do frakcji:**
+  - **Imperium Solaryjskie:** monumentalne, formalne (np. "Solmaren Venturis").
+  - **Liga Eltaryjska:** bardziej poetyckie, awanturnicze.
+  - **Królestwo Venderii:** dostojne, przypominające starożytne imiona.
+
+---
+
+### Podsumowanie:
+
+Każda dwuczłonowa lub wieloczłonowa nazwa powinna być:
+- Unikalna, bez dosłownego tłumaczenia,
+- Zainspirowana klasycznym żeglarskim i mitologicznym klimatem,
+- Brzmiąca jak nazwa własna – jakby istniała w annałach portów Thalassory od wieków.
+
