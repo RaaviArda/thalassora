@@ -5,17 +5,17 @@
 WYCENA MAGICZNYCH PRZEDMIOTÓW W THALASSORZE
 ==========================================
 
-W świecie Thalassory, gdzie magia jest rzadka i wysoko ceniona, przedmioty magiczne podlegają wieloczynnikowej wycenie. Wartość wyrażana jest w złotych monetach (GP).
+W świecie Thalassory, gdzie magia jest rzadka i wysoko ceniona, przedmioty magiczne podlegają wieloczynnikowej wycenie. Wartość wyrażana jest w srebrnych monetach (SP).
 
 SKALA RZADKOŚCI
 ---------------
 
-| Poziom | Nazwa                  | Przedział GP      | Przykłady                                       |
+| Poziom | Nazwa                  | Przedział SP      | Przykłady                                       |
 |--------|------------------------|-------------------|-------------------------------------------------|
-| 1️      | Powszechny (pospolity) | 50–150 GP         | Pióro, które nie wysycha, magiczne kompasiki    |
-| 2️      | Nietypowy              | 200–800 GP        | Mikstury specjalne, 1/dzień efekt               |
-| 3️      | Rzadki                 | 1000–4000 GP      | Amulet Ciszy Umysłu, przedmioty z bonusem MP    |
-| 4️      | Wyjątkowy              | 5000–20000+ GP    | Artefakty frakcyjne, bronie z duszą             |
+| 1️      | Powszechny (pospolity) | 500–1500 SP       | Pióro, które nie wysycha, magiczne kompasiki    |
+| 2️      | Nietypowy              | 2000–8000 SP      | Mikstury specjalne, 1/dzień efekt               |
+| 3️      | Rzadki                 | 10000–40000 SP    | Amulet Ciszy Umysłu, przedmioty z bonusem MP    |
+| 4️      | Wyjątkowy              | 50000–200000+ SP  | Artefakty frakcyjne, bronie z duszą             |
 | 5️      | Unikat (Artefakt)      | bezcenne          | Oko Niewidzącego Boga, Pieczęć Farsunga         |
 
 CZYNNIKI WPŁYWAJĄCE NA WARTOŚĆ
@@ -44,7 +44,7 @@ PRZYKŁAD: AMULET CISZY UMYSŁU
 - Mechanika przypisania: 24h noszenia, nie znika przy zdjęciu
 - Przypisanie znika tylko po śmierci lub rytualnym zerwaniu
 
-→ Szacunkowa wartość: **ok. 2400 GP**
+→ Szacunkowa wartość: **ok. 2400 SP**
 
 Uwagi końcowe:
 - Artefakty unikatowe są bezcenne – mogą być jedynie nagrodą, dziedzictwem lub elementem kampanii.
