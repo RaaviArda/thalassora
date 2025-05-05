@@ -1,0 +1,114 @@
+# TYP: Zasady mechaniczne  
+# OBSZAR: Ekonomia świata  
+# OPIS: Zasady określające koszty życia, pensje, stawki frachtowe i utrzymanie statków. Obejmuje struktury wynagrodzeń, standardy stylu życia oraz mechanikę opłacalności transportu morskiego w świecie Thalassora.
+
+
+# 🏘️ Koszty życia w Thalassora
+
+W świecie Thalassora codzienne utrzymanie postaci zależy od jej stylu życia, pozycji społecznej i dostępu do zasobów. Poniżej znajdują się ustandaryzowane progi kosztów życia, wyrażone w srebrnych monetach (SM). Wszystkie kwoty są pełne, bez ułamków.
+
+---
+
+## 💰 Tabela kosztów życia
+
+| Poziom życia   | Koszt dzienny | Koszt miesięczny | Opis stylu życia i przykłady |
+|----------------|---------------|------------------|-------------------------------|
+| **Przetrwanie** | 1 SM          | 30 SM            | Żebrak, włóczęga, przemytnik żyjący na granicy egzystencji. Tanie jedzenie, improwizowane schronienie, brak oszczędności. |
+| **Skromne**     | 2 SM          | 60 SM            | Pomocnik rzemieślnika, tani najemnik. Wspólna izba, rzadkie mięso, własne przybory osobiste. |
+| **Podstawowe**  | **4 SM**      | 120 SM           | Marynarz, szeregowiec, prosty rzemieślnik. Trzy posiłki dziennie, miejsce do spania, minimalna stabilność. |
+| **Stabilne**    | **6 SM**      | 180 SM           | Wykwalifikowany fachowiec, pisarz, starszy marynarz. Pokój prywatny, świeże jedzenie, podstawowa higiena. |
+| **Wygodne**     | **10 SM**     | 300 SM           | Oficer, kapitan małego statku, średni kupiec. Własne lokum, dobre ubranie, czas wolny i okazjonalny luksus. |
+| **Zamożne**     | **15 SM**     | 450 SM           | Mag, właściciel statku, członek rady cechu. Służba, kucharz, reprezentacyjne wydatki. |
+| **Elitarne**    | **30+ SM**    | 900+ SM          | Szlachcic, arcykapłan, przywódca frakcji. Rezydencja, osobista ochrona, kosztowny styl życia, kontakty polityczne. |
+
+---
+
+## 🧾 Uwagi:
+
+- **Koszt obejmuje**: wyżywienie, schronienie, podstawowe potrzeby, higienę oraz reprezentacyjny styl życia (w wyższych progach).
+- **Nie obejmuje**: podróży, broni, uzbrojenia, mikstur, usług specjalistycznych (magia, alchemia, leczenie).
+- Próg **4 SM dziennie** odzwierciedla **pensję przeciętnego marynarza**, który utrzymuje się z pracy, ale nie oszczędza.
+- **Zamożność i styl życia mogą być narzędziem narracyjnym** – próg dostępnych środków często przekłada się na relacje społeczne, dostęp do lokali, frakcji i informacji.
+
+---
+
+> ✦ Zalecane użycie: do oszacowania miesięcznych wydatków postaci niezależnych, wyznaczania kosztów utrzymania drużyny w czasie pokoju, oraz do szacowania poziomu życia postaci w zależności od jej statusu i profesji.
+
+# ⚓ Koszty statków i transport towarów
+
+Transport morski jest podstawą gospodarki Thalassora. Poniżej przedstawiono ustandaryzowane zasady obliczania kosztów operacyjnych statków handlowych oraz minimalne stawki frachtowe, które pozwalają jednostce „wyjść na zero”.
+
+---
+
+## ⚙️ Koszt utrzymania załogi
+
+### 🧑‍✈️ Marynarze
+- **Pensja:** 4 SM / dzień
+- **Wyżywienie i podstawowe potrzeby:** 2 SM / dzień
+- **Łączny koszt 1 marynarza:** **6 SM / dzień**
+
+# 🧑‍✈️ Oficerowie okrętowi – pensje i koszty
+
+W świecie Thalassora oficerowie statków stanowią kluczową część załogi, odpowiedzialną za nawigację, porządek, bezpieczeństwo, wyżywienie i zdrowie załogi. Poniżej znajduje się zestawienie oficjalnych stanowisk wraz z zakresem pensji w **srebrnych monetach (SM) za dzień pracy**.
+
+---
+
+## 📋 Tabela oficerów
+
+| Stanowisko         | Pensja dzienna (min – max) | Średnia pensja (SM) | Uwagi |
+|--------------------|----------------------------|----------------------|--------|
+| **Bosman**         | 8 – 15 SM                  | 11.5 SM              | Nadzoruje dyscyplinę, porządek i pracę załogi |
+| **Starszy marynarz** | 6 – 12 SM                | 9 SM                 | Doświadczony załogant pełniący funkcje pomocnicze |
+| **Nawigator**      | 15 – 30 SM                 | 22.5 SM              | Odpowiedzialny za trasę, mapy, kurs i pomiary |
+| **Cieśla okrętowy**| 12 – 25 SM                 | 18.5 SM              | Naprawy kadłuba, masztów, olinowania i pompy |
+| **Kucharz**        | 10 – 20 SM                 | 15 SM                | Organizacja wyżywienia i zarządzanie zapasami |
+| **Medyk**          | 15 – 35 SM                 | 25 SM                | Leczenie ran, chorób, alchemiczne środki i opieka sanitarna |
+| **Kapitan**        | 30 – 80 SM                 | 55 SM                | Dowódca jednostki, reprezentacja, decyzje strategiczne |
+
+---
+
+## 🧾 Uwagi:
+
+- Wysokość pensji może zależeć od:
+  - klasy i wielkości statku,
+  - frakcji (Konsorcjum, Imperium, flota prywatna),
+  - doświadczenia i reputacji oficera,
+  - długości rejsu i poziomu ryzyka.
+- Część oficerów (np. kapitan, medyk) **może być zastąpiona przez graczy**, co znacząco obniża koszty operacyjne.
+- **Pensje nie zawierają wyżywienia**, które dolicza się osobno: **2 SM/dzień na oficera**.
+
+---
+
+> ✦ Używaj tej tabeli do kalkulowania kosztów załogi, ustalania cen wynajmu specjalistów oraz tworzenia realistycznych drużyn i misji morskich.
+
+---
+
+## 📈 Obliczanie rentowności
+
+Rentowność statku to wartość, jaką **musi on zarobić w srebrnych monetach (SM)** **za przewóz 1 tony ładunku na 1 milę morską**, aby pokryć codzienne koszty pracy i utrzymania załogi.
+
+---
+
+## 📊 Przykładowe wyliczenia
+
+| Typ statku     | Ładowność (t) | Załoga | Prędkość (NM/dzień) | Koszt dzienny (SM) | Rentowność (SM / mila / tona) |
+|----------------|---------------|--------|----------------------|--------------------|-------------------------------|
+| **Kecz**       | 13            | 13     | 264                  | 198                | **0.058**                      |
+| **Kogga**      | 40            | 18     | 168                  | 228                | **0.034**                      |
+| **Fluita**     | 115           | 25     | 168                  | 270                | **0.014**                      |
+| **Galeon**     | 250           | 50     | 168                  | 420                | **0.010**                      |
+| **Karakka**    | 350           | 75     | 144                  | 570                | **0.011**                      |
+| **Merchantman**| 450           | 85     | 120                  | 630                | **0.012**                      |
+
+---
+
+## 💡 Uwagi praktyczne
+
+- **Stawka 0.1 SM / mila / tona** to wartość **bardzo opłacalna** dla wszystkich dużych statków — daje im ogromne zyski.
+- **Małe jednostki** (kecz, kogga) mogą ledwo wyjść na zero lub przynosić straty przy stawkach poniżej 0.05 SM/mila/tona.
+- **Oficerowie są stałym kosztem**, niezależnie od wielkości ładunku — mniejsze statki bardziej odczuwają ich wpływ.
+- Statki graczy często są bardziej wydajne: mają mniejszą załogę, dowodzą nimi gracze (bez pensji), mogą mieć darmowy prowiant lub szybsze jednostki.
+
+---
+
+> ✦ Używaj tej tabeli do planowania frachtu, rozliczania misji transportowych i szacowania potencjalnych zysków z handlu lub przewozów komercyjnych.
