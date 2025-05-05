@@ -11,6 +11,10 @@
 **Obszar:** Alchemia  
 **Opis:** Klasyfikacja składników, kolory, magical resonance i crafting substancji.
 
+### • Zasady mechaniczne - Ekonomia swiata.txt [GitHub]  
+**Obszar:** Ekonomia świata  
+**Opis:** Zasady określające koszty życia, wynagrodzenia oficerów, rentowność statków i minimalne stawki frachtowe. Stanowi punkt odniesienia dla wyceny usług, transportu morskiego oraz stylu życia postaci.
+
 ### • Zasady mechaniczne - Frakcje.txt [lokalnie]
 **Obszar:** Frakcje  
 **Opis:** Reguły użycia i pobierania danych frakcji z API.
