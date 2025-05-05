@@ -1,91 +1,92 @@
 # TYP: Lista
 # OBSZAR: Zasady i zestawienia
 # OPIS: Kompletny spis wszystkich plików zawierających zasady i zestawienia świata Thalassora, z podziałem na typy i obszary.
+# LEGENDA: [lokalnie] – plik aktywny lokalnie | [GitHub] – tylko w repozytorium | [oba] – dostępny w obu miejscach
 
 ---
 
 ## 📁 ZASADY MECHANICZNE
 
-### • Zasady mechaniczne - Alchemia.txt
+### • Zasady mechaniczne - Alchemia.txt [GitHub]
 **Obszar:** Alchemia  
 **Opis:** Klasyfikacja składników, kolory, magical resonance i crafting substancji.
 
-### • Zasady mechaniczne - Frakcje.txt
+### • Zasady mechaniczne - Frakcje.txt [lokalnie]
 **Obszar:** Frakcje  
 **Opis:** Reguły użycia i pobierania danych frakcji z API.
 
-### • Zasady mechaniczne - Historia swiata.txt
-**Obszar:** Historia świata
+### • Zasady mechaniczne – Historia swiata.txt [GitHub]
+**Obszar:** Historia świata  
 **Opis:** Chronologiczny zarys dziejów Thalassory
 
-### • Zasady mechaniczne - Magia.txt
+### • Zasady mechaniczne - Magia.txt [lokalnie]
 **Obszar:** Magia  
 **Opis:** Struktura rozwoju magii, poziomy wtajemniczenia, typy.
 
-### • Zasady mechaniczne - Miasta.txt
+### • Zasady mechaniczne - Miasta.txt [lokalnie]
 **Obszar:** Miasta  
 **Opis:** Tworzenie miast, wymagane pola, dystanse, praca z API.
 
-### • Zasady mechaniczne - Mity i legendy.txt
+### • Zasady mechaniczne - Mity i legendy.txt [GitHub]
 **Obszar:** Mity i legendy  
 **Opis:** Zasady tworzenia, definicje, struktura i weryfikacja.
 
-### • Zasady mechaniczne - Nazwy statkow.txt
-**Obszar:** Nazwy statkow  
+### • Zasady mechaniczne - Nazwy statkow.txt [lokalnie]
+**Obszar:** Nazwy statków  
 **Opis:** Reguły generowania nazw statków, wzorce językowe.
 
-### • Zasady mechaniczne - Rasy i postacie.txt
+### • Zasady mechaniczne - Rasy i postacie.txt [lokalnie]
 **Obszar:** Rasy i postacie  
 **Opis:** Reguły generowania postaci, losowania imion, struktura danych.
 
-### • Zasady mechaniczne - Sesje.txt
+### • Zasady mechaniczne - Sesje.txt [lokalnie]
 **Obszar:** Sesje  
 **Opis:** Reguły tworzenia i zapisu sesji, zarządzania wątkami fabularnymi.
 
-### • Zasady mechaniczne - Statki.txt
+### • Zasady mechaniczne - Statki.txt [lokalnie]
 **Obszar:** Statki  
 **Opis:** Parametry statków, dane z API, przykładowa załoga.
 
-### • Zasady mechaniczne - Wycena przedmiotow magicznych.txt
-**Obszar:** Wycena przedmiotow magicznych  
+### • Zasady mechaniczne - Wycena przedmiotow magicznych.txt [GitHub]
+**Obszar:** Wycena przedmiotów magicznych  
 **Opis:** Kategorie rzadkości, czynniki wpływające na wartość.
 
 ---
 
 ## 📁 ZASADY SPOŁECZNE
 
-### • Zasady spoleczne - Biale niedzwiedzie.txt
-**Obszar:** Biale niedzwiedzie  
+### • Zasady spoleczne - Biale niedzwiedzie.txt [GitHub]
+**Obszar:** Białe niedźwiedzie  
 **Opis:** Hierarchia, rytuały inicjacyjne, seksualność, dominacja.
 
-### • Zasady spoleczne - Ogolne.txt
-**Obszar:** Ogolne  
-**Opis:** Religia, tolerancja, migracje, otwartość kulturowa.
+### • Zasady spoleczne - Ogolne.txt [lokalnie]
+**Obszar:** Ogólne zasady społeczne  
+**Opis:** Normy społeczne, międzyrasowe relacje, wspólne wartości.
 
-### • Zasady spoleczne - Zwiazki i seksualnosc.txt
-**Obszar:** Zwiazki i seksualnosc  
-**Opis:** Normy kulturowe, wiek przyzwolenia, inicjacja, relacje społeczne.
+### • Zasady spoleczne - Zwiazki i seksualnosc.txt [lokalnie]
+**Obszar:** Związki i seksualność  
+**Opis:** Zasady relacji romantycznych i seksualnych między ferami.
 
 ---
 
 ## 📁 LISTY I ZESTAWIENIA
 
-### • Listy zestawienia - Biomy.txt
+### • Listy zestawienia - Biomy.txt [GitHub]
 **Obszar:** Biomy  
-**Opis:** Lista biomów z typowymi składnikami alchemicznymi i zielarskimi.
+**Opis:** Typy biomów i ich właściwości alchemiczne, klimatyczne i eksploracyjne.
 
-### • Listy zestawienia - Frakcje i wyspy.txt
-**Obszar:** Frakcje i wyspy  
-**Opis:** Opisy głównych frakcji i ich terytoriów, podejście do magii.
+### • Listy zestawienia - Frakcje i wyspy.txt [lokalnie]
+**Obszar:** Frakcje i regiony  
+**Opis:** Opis i lokalizacja głównych frakcji i wysp świata Thalassora.
 
-### • Listy zestawienia - Postacie graczy.txt
-**Obszar:** Postacie graczy  
-**Opis:** Zestawienie postaci graczy z opisami fabularnymi.
+### • Listy zestawienia - Postacie graczy.txt [lokalnie]
+**Obszar:** Postacie  
+**Opis:** Zestawienie postaci graczy z aktywnych i przeszłych kampanii.
 
 ---
 
 ## 📁 SZABLONY
 
-### • Szablon - Wpis sesji.txt  
+### • Szablon - Wpis sesji.txt [GitHub]
 **Obszar:** Sesje  
-**Opis:** Gotowy szablon wpisu sesyjnego zawierający pola daty, lokacji, NPCów oraz podsumowania.
+**Opis:** Szablon struktury wpisu do dziennika sesji.
