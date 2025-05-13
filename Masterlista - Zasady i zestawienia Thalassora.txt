@@ -39,6 +39,10 @@
 **Obszar:** Nazwy statków  
 **Opis:** Reguły generowania nazw statków, wzorce językowe.
 
+### • Zasady mechaniczne - Portrety postaci.txt [GitHub]
+**Obszar:** Portrety postaci  
+**Opis:** Ustalony format graficzny portretów postaci wykorzystywanych w kampanii – styl malarski, popiersiowy, neutralne tło kontrastujące z futrem/łuską, brak ozdobników. Ułatwia prezentację oraz konwersję na tokeny. Obowiązuje dla wszystkich NPC i postaci drugoplanowych generowanych graficznie.
+
 ### • Zasady mechaniczne - Rasy i postacie.txt [lokalnie]
 **Obszar:** Rasy i postacie  
 **Opis:** Reguły generowania postaci, losowania imion, struktura danych.

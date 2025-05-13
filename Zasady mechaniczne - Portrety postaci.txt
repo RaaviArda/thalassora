@@ -1,0 +1,33 @@
+## TYP: Zasady mechaniczne
+## OBSZAR: Portrety postaci
+## OPIS: Opis stylu graficznego portretów postaci wykorzystywanych w materiałach kampanijnych Thalassory. Ustalony format służy jako podstawa do generowania spójnych wizualnie wizerunków NPC oraz do tworzenia tokenów do map taktycznych.
+
+Styl bazowy portretów postaci – Thalassora
+
+Nazwa stylu: Popiersie Bazowe
+Zastosowanie: Portrety postaci do prezentacji graczom oraz jako baza pod tokeny (wycinane lokalnie).
+
+Założenia techniczne i stylistyczne:
+Kadrowanie: od górnej części brzucha w górę (głowa, ramiona, klatka piersiowa).
+
+Styl graficzny: półrealistyczny, malarski, bez dramatycznych świateł ani efektów specjalnych.
+
+Wyraz pyska: zgodny z osobowością postaci; neutralny, spokojny lub subtelnie nacechowany emocjonalnie (np. łagodna surowość, pewna siebie duma, zmęczona życzliwość).
+
+Tło: gładkie, neutralne i kontrastujące z postacią (dobierane dynamicznie tak, by ułatwić wycinanie do tokena i zapewnić czytelność niezależnie od koloru futra/łusek).
+
+Tło nie wskazuje charakteru postaci – za to odpowiada kolor obwódki tokena, nakładanej osobno.
+
+Zastosowanie:
+Jednolity wizualnie standard dla wszystkich NPC i postaci drugoplanowych.
+
+Obraz wykorzystywany jako:
+
+portret postaci prezentowany graczom podczas sesji,
+
+podstawa do tworzenia tokenów (do wycinania i obramowywania wewnętrznym narzędziem MG).
+
+Szybki skrót do użycia:
+Przykładowe zgłoszenie:
+
+„Styl bazowy: rasa wilk, wiek starszy, profesja: rzeźbiarz. Wyraz łagodny, tło kontrastujące.”
